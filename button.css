@@ -1,0 +1,76 @@
+button {
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: center;
+    color: darkolivegreen;
+    
+    width: 90px;
+    padding: 7px 8px 7px 32px;
+    border: 1px solid darkolivergreen;
+    border-radius: 7px;
+    margin-top: 10px;
+    background-position: 8px;
+    background-repeat: no-repeat;
+}
+
+button.login{
+    background-image: url(imej/signin.png);
+}
+
+button.signup {
+    background-image: url(imej/signup.png);
+}
+
+button.import {
+    background-image: url(imej/Data-Import-icon.png);
+}
+
+button.tambah {
+    background-image: url(imej/math-add-icon.png);
+}
+
+button.simpan {
+    background-image: url(imej/Save-icon.png);
+}
+
+button.padam {
+    background-image: url(imej/Close-icon.png);
+}
+
+button.update {
+    background-image: url(imej/Actions-edit-undo-icon.png);
+}
+
+button.merah {
+    background-image: url(imej/Button-Blank-Red-icon.png);
+}
+
+button.biru {
+    background-image: url(imej/Button-Blank-Blue-icon.png);
+}
+
+button.hijau {
+    background-image: url(imej/Button-Blank-Green-icon.png);
+}
+
+button.hitam {
+    background-image: url(imej/Button-Blank-Gray-icon.png);
+}
+
+button.cetak {
+    background-image: url(imej/print-icon.png);
+}
+
+button.papar {
+    background-image: url(imej/Monitor-icon.png);
+}
+
+button.cari {
+    background-image: url(imej/Search-icon.png);
+}
+
+button:hover {
+    background-color: darkgray;
+    cursor:pointer;
+}
